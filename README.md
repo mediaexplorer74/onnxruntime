@@ -1,49 +1,41 @@
-<p align="center"><img width="50%" src="docs/images/ONNX_Runtime_logo_dark.png" /></p>
+# onnxruntime 1.22 - main branch
+![](Images/logo.png)
 
-**ONNX Runtime is a cross-platform inference and training machine-learning accelerator**.
+About
+My fork of ONNX Runtime 1.16 for some own purposes. "Xamarin Forms's UWP". Proof-of-Concept
 
-**ONNX Runtime inference** can enable faster customer experiences and lower costs, supporting models from deep learning frameworks such as PyTorch and TensorFlow/Keras as well as classical machine learning libraries such as scikit-learn, LightGBM, XGBoost, etc. ONNX Runtime is compatible with different hardware, drivers, and operating systems, and provides optimal performance by leveraging hardware accelerators where applicable alongside graph optimizations and transforms. [Learn more &rarr;](https://www.onnxruntime.ai/docs/#onnx-runtime-for-inferencing)
+## My 2 cents 
+- I sucessfully added UWP to Xamarin Forms sample). 
+- onnxruntime lib src code removed (see original if you interested in huge and hard src build journay...)
 
-**ONNX Runtime training** can accelerate the model training time on multi-node NVIDIA GPUs for transformer models with a one-line addition for existing PyTorch training scripts. [Learn more &rarr;](https://www.onnxruntime.ai/docs/#onnx-runtime-for-training)
+## Screenshot
+![](Images/screenshot.png)
 
-## Get Started & Resources
 
-* **General Information**: [onnxruntime.ai](https://onnxruntime.ai)
+## Status
+- UWP target tech. details : 
 
-* **Usage documentation and tutorials**: [onnxruntime.ai/docs](https://onnxruntime.ai/docs)
+ TargetPlatformIdentifier: UAP (UWP)
 
-* **YouTube video tutorials**: [youtube.com/@ONNXRuntime](https://www.youtube.com/@ONNXRuntime)
+ TargetPlatformVersion: 10.0.19041.0
 
-* [**Upcoming Release Roadmap**](https://onnxruntime.ai/roadmap)
+ TargetPlatformMinVersion: 10.0.16299.0
 
-* **Companion sample repositories**:
-  - ONNX Runtime Inferencing: [microsoft/onnxruntime-inference-examples](https://github.com/microsoft/onnxruntime-inference-examples)
-  - ONNX Runtime Training: [microsoft/onnxruntime-training-examples](https://github.com/microsoft/onnxruntime-training-examples)
+ PackageReference 1: Xamarin.Forms v3.6.0.709228 
 
-## Releases
+ PackageReference 2: Microsoft.NETCore.UniversalWindowsPlatform v6.2.8
 
-The current release and past releases can be found here: https://github.com/microsoft/onnxruntime/releases.
+ PackageReference 3: Microsoft.ML.OnnxRuntime v1.22.1
 
-For details on the upcoming release, including release dates, announcements, features, and guidance on submitting feature requests, please visit the release roadmap: https://onnxruntime.ai/roadmap.
+ PackageReference 4: Xamarin.Essentials v1.7.0 (optional)
 
-## Data/Telemetry
+ SDKReference 1: WindowsMobile v10.0.16299.0 (Windows Mobile Extensions for the UWP %28WindowsMobile, Version=10.0.16299.0)
+  
+ SDKReference 2: WindowsMobile v10.0.19041.0 (Windows Mobile Extensions for the UWP %28WindowsMobile, Version=10.0.19041.0)
 
-Windows distributions of this project may collect usage data and send it to Microsoft to help improve our products and services. See the [privacy statement](docs/Privacy.md) for more details.
 
-## Contributions and Feedback
+## ..
+AS IS. RnD only. No support. DIY
 
-We welcome contributions! Please see the [contribution guidelines](CONTRIBUTING.md).
-
-For feature requests or bug reports, please file a [GitHub Issue](https://github.com/Microsoft/onnxruntime/issues).
-
-For general discussion or questions, please use [GitHub Discussions](https://github.com/microsoft/onnxruntime/discussions).
-
-## Code of Conduct
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
-or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+## .
+[m][e] 2025
